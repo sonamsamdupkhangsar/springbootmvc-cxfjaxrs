@@ -15,8 +15,10 @@ import java.util.Arrays;
 @SpringBootApplication
 public class Application {
 
+
     @Autowired
     private Bus bus;
+
 
     public static void main(String[] args) throws Exception {
         SpringApplication.run(Application.class, args);
